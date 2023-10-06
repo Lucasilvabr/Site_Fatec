@@ -1,24 +1,36 @@
-            *{
+            * {
                 background-color: whitesmoke;
                 height: 80px;
             }
-            h1{
-                color:#ff0000;
-            }
-            h2{
-                color:#003e70;
+
+            h1 {
+                color: #ff0000;
             }
 
-            .logo{
-                background-color: whitesmoke;
-                text-align: right; 
+            h2 {
+                color: #003e70;
             }
-            #texto{
+
+            .logo {
+                background-color: whitesmoke;
+                text-align: right;
+            }
+
+            #texto {
                 color: rgb(0, 0, 0);
             }
 
-            body{
+            body {
                 margin: 10;
                 padding: 10;
                 border: 10;
+            }
+
+
+            table,
+            th,
+            td {
+                border: 1px solid black;
+                border-collapse: collapse;
+                text-align: center;
             }
