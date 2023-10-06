@@ -81,33 +81,34 @@
         versáteis, dinâmicas, que saibam trabalhar em equipe e possam ter contato com o usuário final do sistema.</p>
     <h2 style="color: rgb(141, 59, 59);">&lt;Analise e Desenvolvimento de Sistemas&gt;</h2>
 
-    <form>
+    <form action="php">
         <p>
             <label> Nome </label><br>
-            <input class="input" type="text">
+            <input id="campo_nome" name="nome" class="input_text" type="text" placeholder="Digite seu nome...">
             <br><br>
 
             <label> Sobrenome </label><br><br>
-            <input class="input" type="text">
+            <input id="campo_sobrenome" name="sobrenome" class="input_text" type="text"
+                placeholder="Digite sua sobrenome...">
             <br><br>
 
             <label> Senha</label><br>
-            <input class="input" type="password">
+            <input id="campo_senha" name="password" class="input_text" type="password" placeholder="Digite sua senha...">
             <br><br>
 
-            <input class="input" type="submit">
-            <input class="input" type="reset">
+            <input class="input_action" type="submit">
+            <input class="input_action" type="reset">
         </p>
     </form>
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-    
-        <button class="button" onclick="redirecionar()" > Proxima pagina </button>
-        <script>
-            function redirecionar() {
-                window.open(href = "file:///C:/Users/brdasilvlu3/OneDrive%20-%20NESTLE/Lucas/Fatec/5%C2%B0Semestre/Desen.%20Web/Index%20pg2.html", "_blank"); // Substitua pelo URL desejado
-            }
-        </script>
+
+    <button class="button_prox_pagina" onclick="redirecionar()"> Proxima pagina </button>
+    <script>
+        function redirecionar() {
+            window.open(href = "file:///C:/Users/brdasilvlu3/OneDrive%20-%20NESTLE/Lucas/Fatec/5%C2%B0Semestre/Desen.%20Web/Index%20pg2.html", "_blank"); // Substitua pelo URL desejado
+        }
+    </script>
 </body>
 
 </html>
