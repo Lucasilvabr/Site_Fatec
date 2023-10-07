@@ -66,4 +66,23 @@
                 /* Defina a altura desejada */
 
             }
+
+            .radio-container {
+                display: inline-block; /* Permite que os elementos fiquem na mesma linha */
+                vertical-align: middle; /* Alinha verticalmente os elementos */
+            }
+            
+            input[type="radio"] {
+                vertical-align: middle; /* Alinha verticalmente os elementos */
+            }
+            
+            label {
+                vertical-align: middle; /* Alinha verticalmente os elementos */
+            }
+
+            .div {
+                display: inline-block; /* Permite que os elementos fiquem na mesma linha */
+                vertical-align: middle; /* Alinha verticalmente os elementos */
+                
+            }
             
